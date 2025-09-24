@@ -2,9 +2,9 @@ name: Swagger Autogen
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "feature/jitsi"]
   pull_request:
-    branches: ["main"]
+    branches: ["main", "feature/jitsi"]
 
 # Read-only is enough since we no longer push commits
 permissions:
